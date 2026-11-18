@@ -1,0 +1,19 @@
+{
+  "rows_total": 514,
+  "expected_rejected": 91,
+  "expected_valid": 423,
+  "expected_rule_row_counts": {
+    "AMOUNT_OUT_OF_RANGE": 3,
+    "AMOUNT_PRECISION": 4,
+    "DUPLICATE_CONFLICT": 8,
+    "DUPLICATE_EXACT": 10,
+    "FUTURE_DATE": 6,
+    "INVALID_AMOUNT": 5,
+    "INVALID_CURRENCY": 6,
+    "INVALID_DATE": 10,
+    "INVALID_TXN_TYPE": 6,
+    "MISSING_REQUIRED": 20,
+    "NON_POSITIVE_AMOUNT": 13
+  },
+  "expected_account_conflict_warnings": 3
+}
